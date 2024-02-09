@@ -75,14 +75,6 @@ body
     height: 400px;
 }
 
-/* Additional styles for specific screen sizes */
-/* @media (max-width: 800px) {
-    .picture-container {
-        width: 100%; 
-        height: auto; 
-    }
-} */
-
 
 .education
 {
