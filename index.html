@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="./Assests/index.css" />
   </head>
   <body>
+    <!-- introduction -->
+
     <main class="main">
       <div class="top"><span class="top1">Hey, I am Ananthu</span></div>
       <div class="bottom"><span class="bottom1">Ui/Ux Developer</span></div>
     </main>
+
+    <!-- skill -->
+
     <main class="main secondmain">
-      <div><span class="top1">Skills</span></div>
+      <div class="skillheading"><span class="top1">Skills</span></div>
       <div class="html">
         <ul type="none">
           <li class="skilllist">HTML</li>
@@ -34,22 +39,32 @@
         </ul>
 
         <div class="picture-container">
-            <picture>
-                <img src="./Assests/images/css1.jpg" alt=""/>
-              </picture>
+          <picture>
+            <img class="img" src="./Assests/images/css1.jpg" alt="" />
+          </picture>
         </div>
       </div>
-      
+
       <div class="bootstrap">
         <ul type="none">
           <li class="skilllist">Bootstrap</li>
         </ul>
-        <div> <iframe src="https://getbootstrap.com/" frameborder="0" class="iframe"></iframe></div>
+        <div>
+          <iframe
+            src="https://getbootstrap.com/"
+            frameborder="0"
+            class="iframe"
+          ></iframe>
+        </div>
       </div>
     </main>
 
+    <!-- education -->
+
     <main class="main secondmain">
-      <div><span class="top1">Education</span></div>
+      <div class="headingedu">
+        <span class="top1 topeducation">Education</span>
+      </div>
 
       <div class="education">
         <table>
@@ -72,30 +87,47 @@
         </table>
       </div>
 
+      <!-- survey -->
+
       <div>
-        <form>
-          <label>Name</label>
-          <input type="text" placeholder="First Name" />
-          <label> Gender</label>
-          <label><input type="radio" name="Gender" />Male</label>
-          <label><input type="radio" name="Gender" />Female</label>
-          <br />
-          <input type="submit" value="Submit" />
+        <div class="skillheading"><span class="top1">Survey</span></div>
+
+        <form class="surveyform">
+          <div class="formelements">
+            <label>F Name</label>
+            <input type="text" placeholder="First Name" />
+          </div>
+          <div class="formelements">
+            <label>L Name</label>
+            <input type="text" placeholder="Last Name" />
+          </div>
+          <div class="formelements">
+            <label> Gender</label>
+            <label><input type="radio" name="Gender" />Male</label>
+            <label><input type="radio" name="Gender" />Female</label>
+          </div>
+          <div class="formelements"><input type="submit" value="Submit" /></div>
         </form>
       </div>
 
-      <video width="400px" height="300px" controls autoplay muted>
-        <source
-          src="https://player.vimeo.com/progressive_redirect/playback/869807690/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=323c0041dc6abd9c80ffaa7ea8cd33bcf2eaa71cc5f8f1994787821c6b4558af"
-          type="video/mp4"
-        />
+      <div class="skillheading"><span class="top1">Video and Audio</span></div>
+      <div class="formelements">
+        <div>
+          <video width="400px" height="300px" controls autoplay muted>
+            <source
+              src="https://player.vimeo.com/progressive_redirect/playback/869807690/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=323c0041dc6abd9c80ffaa7ea8cd33bcf2eaa71cc5f8f1994787821c6b4558af"
+              type="video/mp4"
+            />
 
-        your browser does not support this video
-      </video>
-
-      <audio controls>
-        <source src="./Assests/Audio/Kalimba.mp3" />
-      </audio>
+            your browser does not support this video
+          </video>
+        </div>
+        <div>
+          <audio controls>
+            <source src="./Assests/Audio/Kalimba.mp3" />
+          </audio>
+        </div>
+      </div>
     </main>
   </body>
 </html>

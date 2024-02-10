@@ -1,107 +1,135 @@
-body
-{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.main
-{
-    margin: 0;
-    padding: 0;
-    background-image:url("./images/pexels-olena-bohovyk-1772123.jpg") ;
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position:center;
-    background-attachment: fixed;
+.main {
+  margin: 0;
+  padding: 0;
+  background-image: url("./images/pexels-olena-bohovyk-1772123.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-
-
-.secondmain
-{
-    height: 100%;
+.secondmain {
+  height: 100%;
+  padding: 10px;
 }
-
 
 .top,
 .bottom {
-    margin: 0;
-    height: 50vh;
-    width: 100%;
-    display: flex; 
-  
-    align-items: center; 
+  margin: 0;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+
+  align-items: center;
 }
 
-.bottom
-{
-    justify-content: end;
+.bottom {
+  justify-content: end;
 }
 
-.top1,.bottom1
-{
-    font-weight: bolder;
-    font-family: cursive;
-    font-size: xx-large;
-    margin: 30px;
-    
+.top1,
+.bottom1 {
+  font-weight: bolder;
+  font-family: cursive;
+  font-size: xx-large;
+  margin: 30px;
 }
 
+.skillheading {
+  text-align: center;
+  padding: 30px;
+}
 
-.skilllist
-{
-    margin: 30px;
-    font-size: medium;
-    font-family: cursive;
+.skilllist {
+  margin: 30px;
+  font-size: medium;
+  font-family: cursive;
+  font-weight: bold;
 }
 
 .picture-container {
-    width: 600px;
-    height: 400px; 
+  width: 600px;
+  height: 400px;
+  display: inline-block;
 }
 
-.picture-container img
- {
-    width: 100%; 
-    height: 100%;
+.img {
+  width: 100%;
+  height: 100%;
 }
 
-
-.iframe
-{
-    margin: 0;
-    width: 600px;
-    height: 400px;
+.iframe {
+  margin: 0;
+  width: 600px;
+  height: 400px;
 }
 
+.html,
+.css,
+.bootstrap {
+  text-align: center;
+}
 
-.education
-{
-    margin: 0;
-    height: 50vh;
-    width:100%;
-    margin-top: 30px;
+.headingedu {
+  padding: 10px;
+  text-align: center;
+}
+
+.topeducation {
+  margin: 30px;
+  display: block;
+}
+
+.education {
+  margin: 0;
+  height: 50vh;
+  width: 100%;
+  margin-top: 30px;
 }
 
 table {
-    margin: 0;
-    width: 100%;
-    border-collapse: collapse;
-    font-size: large;
+  margin: 0;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: large;
 }
 
-ul
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+th,
+td {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  width: 50%;
+}
+
+.surveyform
 {
+    height: 100%;
+    width: 100%;
     margin: 0;
-
+    padding: 0;
 }
 
-th, td {
-    margin: 0;
-    padding: 20px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-    width: 50%;
+
+.formelements
+{
+    margin: 30px;
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(71, 56, 56);
 }
 
